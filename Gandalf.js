@@ -5,7 +5,7 @@ const fetch = require("node-fetch");
 
 
 //TOKEN
-client.login(process.env.GUARDIANOTOKEN);
+client.login(process.env.GANDALFTOKEN);
 const serverID = process.env.SERVERID;
 
 
