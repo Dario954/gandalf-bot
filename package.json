@@ -4,7 +4,7 @@
   "description": "",
   "main": "Gandalf.js",
   "scripts": {
-    "start" : "node Gandal.js",
+    "start" : "node Gandalf.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
