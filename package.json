@@ -1,18 +1,16 @@
 {
-  "name": "gandalf",
+  "name": "name",
   "version": "1.0.0",
   "description": "",
-  "main": "Gandalf.js",
+  "main": "bot.js",
   "scripts": {
-    "start" : "node Gandalf.js",
+    "start" : "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dario",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^12.5.1",
-    "dotenv": "^8.2.0",
-    "fetch": "^1.1.0",
-    "node-fetch": "^2.6.1"
+    "dotenv": "^8.2.0"
   }
 }
