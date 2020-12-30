@@ -32,16 +32,12 @@ function   readyDiscord () {
 
 const replies = [
   "tu non puoi passare",
-  "chi sa fare sa capire ",
-  "tu puoi passare",
-  "quella casa è fatta di paglia",
-  " coof coof...piacere vederti cicciogamer"
 ];
 
 client.on("message", gotMessage);
 
 function gotMessage(msg) {
-  if (msg.channel.id == "789805460638531594" && msg.content === "!Gandalf") {
+  if (msg.channel.id == "789805460638531594" && msg.content === "") {
     // msg.reply('MESSAGGIO');
     const index = Math.floor(Math.random() * replies.length);
     msg.channel.send(replies[index]);
@@ -51,7 +47,7 @@ function gotMessage(msg) {
 client.on("message", getMessage);
 
 function getMessage(msg){
-  if (msg.channel.id == "789805460638531594" && msg.content === "!twitch-eren"){
-    msg.reply('LINK');
+  if (msg.channel.id == "789805460638531594" && msg.content === ""){
+    msg.reply('');
   }
 }
